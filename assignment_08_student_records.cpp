@@ -192,7 +192,7 @@ void findAverage(const vector<Student> &students)
 
     if (!found)
     {
-        cout << "Oops!: Student ID not found." << endl;
+        cout << "Oops! Student ID not found." << endl;
     }
 }
 
@@ -232,7 +232,7 @@ int main()
             break;
 
         default:
-            cout << "Oops!: Invalid choice." << endl;
+            cout << "Oops! Invalid choice." << endl;
         }
 
     } while (choice != 4);
