@@ -185,7 +185,7 @@ int main() {
                 if (divide(num1, num2, result)) {
                     cout << "Result: " << num1 << " / " << num2 << " = " << result << "\n";
                 } else {
-                    cout << "Oops!: Cannot divide by zero.\n";
+                    cout << "Oops! Cannot divide by zero.\n";
                 }
                 break;
 
@@ -193,7 +193,7 @@ int main() {
                 if (modulus(num1, num2, result)) {
                     cout << "Result: " << num1 << " % " << num2 << " = " << result << "\n";
                 } else {
-                    cout << "Oops!: Cannot perform modulus by zero.\n";
+                    cout << "Oops! Cannot perform modulus by zero.\n";
                 }
                 break;
 
