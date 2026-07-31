@@ -90,7 +90,7 @@ int main()
 
     if (grade == '\0')
     {
-        cout << "Oops!: Score must be between 0 and 100." << endl;
+        cout << "Oops! Score must be between 0 and 100." << endl;
     }
     else
     {
