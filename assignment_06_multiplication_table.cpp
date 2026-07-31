@@ -88,7 +88,7 @@ int main()
 
     if (number <= 0)
     {
-        cout << "Oops!: Please enter a positive integer." << endl;
+        cout << "Oops! Please enter a positive integer." << endl;
         return 0;
     }
 
@@ -100,7 +100,7 @@ int main()
 
     if (n <= 0)
     {
-        cout << "Oops!r: Please enter a positive integer." << endl;
+        cout << "Oops! Please enter a positive integer." << endl;
         return 0;
     }
 
