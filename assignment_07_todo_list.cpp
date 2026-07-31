@@ -130,7 +130,7 @@ void deleteTask(vector<string>& tasks)
 
     if (number < 1 || number > tasks.size())
     {
-        cout << "Error: Invalid task number." << endl;
+        cout << "Oops! Invalid task number." << endl;
     }
     else
     {
@@ -175,7 +175,7 @@ int main()
                 break;
 
             default:
-                cout << "Oops!: Invalid choice. Please select 1-4." << endl;
+                cout << "Oops! Invalid choice. Please select 1-4." << endl;
         }
 
     } while (choice != 4);
